@@ -1,8 +1,20 @@
 public class Principessa {
     private String nome;
     private Drago carceriere;
+    private String stato;
+
     public Principessa(String nome) {
         this.nome = nome;
+        this.stato = "libera";
+    }
+    public String getNome() {
+        return nome;
+    }
+    public String getStato() {
+        return stato;
+    }
+    public void setStato(String stato) {
+        this.stato = stato;
     }
     public Drago getCarceriere() {
         return carceriere;
